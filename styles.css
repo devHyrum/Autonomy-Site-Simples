@@ -1,4 +1,3 @@
-/* Reset básico */
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +10,6 @@ body {
     color: #e0e0e0;
 }
 
-/* Cabeçalho */
 header {
     background-color: #180E0C;
     padding: 20px;
@@ -53,7 +51,6 @@ header {
     }
 }
 
-/* Seção de imagem principal */
 #photoWelcome{
     width: 100%;
     height: 100%;
@@ -65,7 +62,6 @@ header {
     }
 }
 
-/* Seção de cards */
 #section-articles {
     display: flex;
     flex-wrap: wrap;
@@ -94,7 +90,6 @@ header {
     }
 }
 
-/* Seção de informações adicionais */
 #section-articles2 {
     padding: 40px;
     background-color: #37201A;
@@ -130,39 +125,55 @@ header {
     }
 }
 
-/* Rodapé */
-footer {
-    background-color: #333;
+#section-articles3 {
+    background-color: #251611;
     color: #aaa;
-    padding: 30px;
+    padding: 40px;
     display: flex;
     justify-content: space-around;
+    gap: 3rem;
+    h3 {
+        font-size: 1.5em;
+        margin-bottom: 30px;
+        color: #A67459;
+    }
+    #first-part-article3{
+        width: 75%;
+        }
+        p {
+            font-size: 0.9em;
+            line-height: 1.6;
+            margin-bottom: 25px;
+            color: #62342A;
+        }
+        ins{
+            color: #A67459;
+        }
+    #second-part-article3{
+        ul {
+            list-style: none;
+            li {
+                margin-bottom: 10px;
+                font-size: 0.9em;
+                a {
+                    color: #62342A;
+                    text-decoration: none;
+                }
+                a:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+
+    }
 }
 
-footer h3 {
-    font-size: 1.3em;
-    margin-bottom: 10px;
-}
-
-footer p {
-    font-size: 0.9em;
-    line-height: 1.6;
-    margin-bottom: 10px;
-}
-
-footer ul {
-    list-style: none;
-}
-
-footer ul li {
-    margin-bottom: 5px;
-}
-
-footer ul li a {
-    color: #48cae4;
-    text-decoration: none;
-}
-
-footer ul li a:hover {
-    text-decoration: underline;
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #180E0C;
+    p{
+        margin: 2rem;
+        color: #53312D;
+    }
 }
